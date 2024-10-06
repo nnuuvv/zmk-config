@@ -43,19 +43,28 @@
 
     Base_layer {
       bindings = <
-        &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp undefined &kp A &kp R &kp S &kp T &kp G &kp M &kp N &kp E &kp I &kp O &kp Z &kp X &kp C &kp D &kp V &kp K &kp H &kp COMMA &kp PERIOD &kp SLASH &kp LEFT_GUI &mo LOWER &kp SPACE &kp RETURN &mo RAISE &kp RIGHT_ALT 
+        &trans &kp Q &kp W &kp F &kp P &kp B  &kp J &kp L &kp U &kp Y &kp undefined &trans 
+        &trans &kp A &kp R &kp S &kp T &kp G  &kp M &kp N &kp E &kp I &kp O &trans 
+        &trans &kp Z &kp X &kp C &kp D &kp V  &kp K &kp H &kp COMMA &kp PERIOD &kp SLASH &trans 
+            &kp LEFT_GUI &mo LOWER &kp SPACE  &kp RETURN &mo RAISE &kp RIGHT_ALT 
       >;
     };
 
     Lower_layer {
       bindings = <
-        &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans &trans &trans &trans &trans &trans &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &trans &trans &trans &trans &trans &kp LEFT_GUI &trans &kp RETURN &kp SPACE &trans &kp RIGHT_ALT 
+        &trans &trans &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &trans        &trans &trans &trans &trans &trans &trans
+        &trans &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &trans  &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+        &trans &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans        &trans &trans &trans &trans &trans &trans
+                                    &kp LEFT_GUI &trans &kp RETURN  &kp SPACE &trans &kp RIGHT_ALT 
       >;
     };
 
     Raise_layer {
       bindings = <
-        &kp EXCLAMATION &kp SINGLE_QUOTE &kp DOUBLE_QUOTES &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp undefined &kp AT_SIGN &kp MINUS &kp LEFT_PARENTHESIS &kp LT &kp PLUS &kp QUESTION &kp K_MENU &kp LEFT_BRACE &kp LEFT_BRACKET &kp SLASH &kp PIPE &kp UNDERSCORE &kp RIGHT_PARENTHESIS &kp GT &kp COLON &kp HASH &kp undefined &kp RIGHT_BRACE &kp RIGHT_BRACKET &kp BACKSLASH &kp TILDE &kp LEFT_GUI &trans &kp SPACE &kp RETURN &trans &kp RIGHT_ALT 
+        &trans &kp EXCLAMATION &kp SINGLE_QUOTE &kp DOUBLE_QUOTES &kp DOLLAR &kp PERCENT  &kp CARET &kp AMPERSAND &kp ASTERISK &kp undefined &kp AT_SIGN &trans
+        &trans &kp MINUS &kp LEFT_PARENTHESIS &kp LT &kp PLUS &kp QUESTION                &kp K_MENU &kp LEFT_BRACE &kp LEFT_BRACKET &kp SLASH &kp PIPE &trans
+        &trans &kp UNDERSCORE &kp RIGHT_PARENTHESIS &kp GT &kp COLON &kp HASH             &kp undefined &kp RIGHT_BRACE &kp RIGHT_BRACKET &kp BACKSLASH &kp TILDE &trans
+                                              &kp LEFT_GUI &trans &kp SPACE        &kp RETURN &trans &kp RIGHT_ALT 
       >;
     };
 
