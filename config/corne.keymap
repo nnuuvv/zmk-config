@@ -20,7 +20,7 @@
             timeout-ms = <50>;
             key-positions = <16 17>;
             layers = <BASE>;
-            bindings = <&kp BS>;
+            bindings = <&kp BSPC>;
         };
 
         combo_esc {
