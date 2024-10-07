@@ -60,9 +60,9 @@
 
         Raise_layer {
             bindings = <
-&trans  &kp EXCLAMATION  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp DOLLAR  &kp PERCENT     &kp CARET      &kp AMPERSAND    &kp ASTERISK       &kp undefined  &kp AT_SIGN  &trans
+&trans  &kp EXCLAMATION  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp DOLLAR  &kp PERCENT     &kp CARET      &kp AMPERSAND    &kp ASTERISK       &trans         &kp AT_SIGN  &trans
 &trans  &kp MINUS        &kp LEFT_PARENTHESIS   &kp LT             &kp PLUS    &kp QUESTION    &kp K_MENU     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp SLASH      &kp PIPE     &trans
-&trans  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS  &kp GT             &kp COLON   &kp HASH        &kp undefined  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp TILDE    &trans
+&trans  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS  &kp GT             &kp COLON   &kp HASH        &trans         &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp TILDE    &trans
                                                 &kp LEFT_GUI       &trans      &kp SPACE       &kp RETURN     &trans           &kp RIGHT_ALT
             >;
         };
