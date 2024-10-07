@@ -52,18 +52,18 @@
 
         navigation {
             bindings = <
-&trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans     &trans    &trans         &trans  &trans     &trans
-&trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans     &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &trans
-&trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans     &trans    &trans         &trans  &trans     &trans
-                                    &kp LEFT_GUI  &to 0         &kp RETURN    &kp SPACE  &trans    &kp RIGHT_ALT
+&trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans            &trans     &trans    &trans         &trans  &trans     &trans
+&trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans            &trans     &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &trans
+&trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans     &trans    &trans         &trans  &trans     &trans
+                                    &kp LEFT_GUI  &to 0         &kp LEFT_SHIFT    &kp SPACE  &trans    &kp RIGHT_ALT
             >;
         };
 
         special_keys {
             bindings = <
-&trans  &kp EXCLAMATION  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND    &kp ASTERISK       &trans         &kp AT_SIGN  &trans
+&trans  &kp EXCLAMATION  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND    &kp ASTERISK       &kp TILDE      &kp AT_SIGN  &trans
 &trans  &kp MINUS        &kp LEFT_PARENTHESIS   &kp LT             &kp PLUS    &kp QUESTION      &kp EQUAL  &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp SLASH      &kp PIPE     &trans
-&trans  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS  &kp GT             &kp COLON   &kp HASH          &to 1      &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp TILDE    &trans
+&trans  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS  &kp GT             &kp COLON   &kp HASH          &to 1      &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans       &trans
                                                 &kp LEFT_GUI       &to 0       &kp LEFT_SHIFT    &kp SPACE  &to 2            &kp RIGHT_ALT
             >;
         };
