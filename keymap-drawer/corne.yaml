@@ -1,0 +1,144 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  Base:
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - {t: SPACE, h: Ctl+Sft+ LEFT ALT}
+  - LEFT SHIFT
+  - SPACE
+  - {t: special_keys, h: sticky}
+  - RIGHT ALT
+  navigation:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - {t: Base, h: toggle}
+  - LEFT SHIFT
+  - SPACE
+  - {t: ▽, type: trans}
+  - RIGHT ALT
+  special_keys:
+  - {t: ▽, type: trans}
+  - '!'
+  - ''''
+  - '"'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '~'
+  - '@'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - (
+  - <
+  - +
+  - '?'
+  - '='
+  - '{'
+  - '['
+  - /
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - )
+  - '>'
+  - ':'
+  - '#'
+  - {t: navigation, h: toggle}
+  - '}'
+  - ']'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - {t: Base, h: toggle}
+  - LEFT SHIFT
+  - SPACE
+  - {t: special_keys, h: toggle, type: held}
+  - RIGHT ALT
+combos:
+- p: [19, 20, 21]
+  k: RET
+  l: [Base, navigation, special_keys]
+- p: [19, 20]
+  k: BSPC
+  l: [Base, navigation, special_keys]
+- p: [16, 15, 14]
+  k: ESC
+  l: [Base, navigation, special_keys]
+- p: [16, 15]
+  k: {t: LEFT CONTROL, h: sticky}
+  l: [Base, navigation, special_keys]
