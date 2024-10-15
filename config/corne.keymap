@@ -38,13 +38,24 @@
         };
     };
 
+    behaviors {
+        mod_morph_t_tab: mod_morph_t_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_T_TAB";
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
+            bindings = <&kp T>, <&kp TAB>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         Base_layer {
             bindings = <
 &trans  &kp Q  &kp W  &kp F         &kp P                       &kp B             &kp J      &kp L  &kp U          &kp Y       &kp SEMI   &trans
-&trans  &kp A  &kp R  &kp S         &kp T                       &kp G             &kp M      &kp N  &kp E          &kp I       &kp O      &trans
+&trans  &kp A  &kp R  &kp S         &mod_morph_t_tab            &kp G             &kp M      &kp N  &kp E          &kp I       &kp O      &trans
 &trans  &kp Z  &kp X  &kp C         &kp D                       &kp V             &kp K      &kp H  &kp COMMA      &kp PERIOD  &kp SLASH  &trans
                       &kp LEFT_GUI  &mt LC(LS(LEFT_ALT)) SPACE  &kp LEFT_SHIFT    &kp SPACE  &sl 2  &kp RIGHT_ALT
             >;
@@ -63,7 +74,7 @@
             bindings = <
 &trans  &kp EXCLAMATION  &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND    &kp ASTERISK       &kp TILDE      &kp AT_SIGN  &trans
 &trans  &kp MINUS        &kp LEFT_PARENTHESIS   &kp LT             &kp PLUS    &kp QUESTION      &kp EQUAL  &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp SLASH      &kp PIPE     &trans
-&trans  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS  &kp GT             &kp COLON   &kp HASH          &to 1      &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans       &trans
+&trans  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS  &kp GT             &kp COLON   &kp HASH          &kp TAB    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &to 1        &trans
                                                 &kp LEFT_GUI       &to 0       &kp LEFT_SHIFT    &kp SPACE  &to 2            &kp RIGHT_ALT
             >;
         };
