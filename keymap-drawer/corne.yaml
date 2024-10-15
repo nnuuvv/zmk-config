@@ -42,7 +42,7 @@ layers:
   - LEFT SHIFT
   - SPACE
   - {t: special_keys, h: sticky}
-  - RIGHT ALT
+  - LEFT ALT
   navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
