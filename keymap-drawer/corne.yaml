@@ -17,7 +17,7 @@ layers:
   - A
   - R
   - S
-  - T
+  - {t: T, s: TAB}
   - G
   - M
   - N
@@ -117,11 +117,11 @@ layers:
   - '>'
   - ':'
   - '#'
-  - {t: navigation, h: toggle}
+  - TAB
   - '}'
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - {t: navigation, h: toggle}
   - {t: ▽, type: trans}
   - LEFT GUI
   - {t: Base, h: toggle}
