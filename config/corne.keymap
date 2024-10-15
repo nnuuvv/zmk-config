@@ -54,10 +54,10 @@
 
         Base_layer {
             bindings = <
-&trans  &kp Q  &kp W  &kp F         &kp P                       &kp B             &kp J      &kp L  &kp U          &kp Y       &kp SEMI   &trans
-&trans  &kp A  &kp R  &kp S         &mod_morph_t_tab            &kp G             &kp M      &kp N  &kp E          &kp I       &kp O      &trans
-&trans  &kp Z  &kp X  &kp C         &kp D                       &kp V             &kp K      &kp H  &kp COMMA      &kp PERIOD  &kp SLASH  &trans
-                      &kp LEFT_GUI  &mt LC(LS(LEFT_ALT)) SPACE  &kp LEFT_SHIFT    &kp SPACE  &sl 2  &kp RIGHT_ALT
+&trans  &kp Q  &kp W  &kp F         &kp P                       &kp B             &kp J      &kp L  &kp U         &kp Y       &kp SEMI   &trans
+&trans  &kp A  &kp R  &kp S         &mod_morph_t_tab            &kp G             &kp M      &kp N  &kp E         &kp I       &kp O      &trans
+&trans  &kp Z  &kp X  &kp C         &kp D                       &kp V             &kp K      &kp H  &kp COMMA     &kp PERIOD  &kp SLASH  &trans
+                      &kp LEFT_GUI  &mt LC(LS(LEFT_ALT)) SPACE  &kp LEFT_SHIFT    &kp SPACE  &sl 2  &kp LEFT_ALT
             >;
         };
 
